@@ -23,10 +23,15 @@ nav {
     font-size: 20px;
 }
 
+.logo a {
+    color: black;
+    text-decoration: none;
+}
+
 .v-letter {
-    color: rgb(245, 222, 21);
+    color:  #c01712;
     text-transform: uppercase;
-    font-size: 30px;
+    font-size: 35px;
 }
 
 .nav-links {
@@ -48,6 +53,11 @@ nav {
     font-size: 14px;
 }
 
+.nav-links a:hover {
+    transition: 0.3s ease;
+    color: #c01712;
+}
+
 .burger-menu {
     display: none;
     cursor: pointer;
@@ -61,7 +71,8 @@ nav {
     transition: all 0.3s ease;
 }
 
-#voxinus-guitar {
+.voxinus-img {
+    overflow-x: hidden;
     width: 100%;
     height: auto;
 }
@@ -73,7 +84,6 @@ nav {
         width: 50%;
     }
 }
-
 
 /*Tablet*/
 
@@ -104,7 +114,6 @@ nav {
     }
 }
 
-
 /*Phone*/
 
 @media (max-width: 575.98px) {
@@ -116,7 +125,7 @@ nav {
         right: 0px;
         height: 92vh;
         top: 7.4vh;
-        background-color:white;
+        background-color: white;
         color: black;
         display: flex;
         flex-direction: column;
@@ -160,3 +169,27 @@ nav {
 .toggle .line3 {
     transform: rotate(45deg) translate(-5px, -6px);
 }
+
+.el {
+    width: 100%;
+    height: auto;
+}
+
+.merch1 {
+    position: absolute;
+    left: 960px;
+    top: 2700px;
+}
+
+.merch2 {
+    position: absolute;
+    left: 1350px;
+    top: 2800px;
+}
+
+.merch3 {
+    position: absolute;
+    left: 1110px;
+    top: 3100px;
+}
+
