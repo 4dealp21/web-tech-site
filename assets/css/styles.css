@@ -15,6 +15,7 @@ nav {
     align-items: center;
     min-height: 8vh;
     background-color: white;
+    z-index: 1;
 }
 
 .logo {
@@ -29,7 +30,7 @@ nav {
 }
 
 .v-letter {
-    color:  #c01712;
+    color: #c01712;
     text-transform: uppercase;
     font-size: 30px;
 }
@@ -79,12 +80,73 @@ nav {
     display: block
 }
 
+.container {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.text {
+    font-size: 2vw;
+    font-weight: bold;
+}
+
+#line-1 {
+    position: absolute;
+    top: 380px;
+    left: 200px;
+}
+
+#line-2 {
+    position: absolute;
+    top: 440px;
+    left: 400px;
+}
+
+#s-letter {
+    color: #c01712;
+    font-size: 4vw;
+}
+
+.button {
+    position:absolute;
+    width: 403px;
+    height: 103px;
+    top: 570px;
+    left: 350px;
+    background-color: #c01712;
+    color: white;
+    text-decoration: none;
+    border: none;
+    border-radius: 129px;
+    padding: 22px 32px;
+    text-align: center;
+    display: inline-block;
+    cursor: pointer;
+    font-size: 2vw;
+    margin: 0 auto;
+}
+
+.button:hover {
+    background-color: #971010;
+}
+
+.button:active {
+    background-color: #971010;
+    transform: translateY(4px);
+}
+
 .voxinus-img {
     overflow-x: hidden;
     width: 100%;
     height: auto;
+    display: block;
 }
 
+#m-letter {
+    color: #c01712;
+    font-size: 30px;
+}
 
 /*Breakpoint to do some spacing on the navbar list*/
 
@@ -178,6 +240,3 @@ nav {
 .toggle .line3 {
     transform: rotate(45deg) translate(-5px, -6px);
 }
-
-
-
