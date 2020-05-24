@@ -123,7 +123,7 @@ nav {
     text-align: center;
     display: inline-block;
     cursor: pointer;
-    font-size: 2vw;
+    font-size: 40px;
     margin: 0 auto;
 }
 
@@ -149,7 +149,7 @@ nav {
 
 .merch {
     margin-top: 180px;
-    padding: 40px 50px;
+    padding: 10px 30px;
 }
 
 .merch-text {
@@ -173,7 +173,7 @@ nav {
     position:absolute;
     width: 500px;
     height: 103px;
-    top: 850px;
+    top: 800px;
     left: 700px;
     background-color: #c01712;
     color: white;
@@ -184,7 +184,7 @@ nav {
     text-align: center;
     display: inline-block;
     cursor: pointer;
-    font-size: 2vw;
+    font-size: 40px;
     margin: 0 auto;
 }
 
@@ -204,6 +204,13 @@ nav {
 
 
 /*Breakpoint to do some spacing on the navbar list*/
+
+@media screen and (max-width:1138px) {
+    .merch {
+        width: 280px;
+        height: auto;
+    }
+}
 
 @media screen and (max-width:1920px) {
     .nav-links {
