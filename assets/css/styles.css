@@ -198,11 +198,31 @@ nav {
 }
 
 #get-in-touch {
-    display: block;
+    margin-top: 400px;
+    margin-left: 200px;
 }
 
 
+.form-button {
+    width: 100px;
+    background-color: #c01712;
+    color: white;
+    border: none;
+    border-radius: 19px;
+    padding: 10px 12px;
+    text-align: center;
+    display: inline-block;
+    cursor: pointer;
+}
 
+.form-button:hover {
+    background-color: #971010;
+}
+
+.form-button:active {
+    background-color: #971010;
+    transform: translateY(4px);
+}
 /*Breakpoint to do some spacing on the navbar list*/
 
 @media screen and (max-width:1138px) {
