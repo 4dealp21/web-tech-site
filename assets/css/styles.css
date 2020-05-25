@@ -109,11 +109,11 @@ nav {
 }
 
 .button {
-    position:absolute;
+    position: absolute;
     width: 403px;
     height: 103px;
-    top: 570px;
-    left: 345px;
+    top: 550px;
+    left: 280px;
     background-color: #c01712;
     color: white;
     text-decoration: none;
@@ -121,10 +121,9 @@ nav {
     border-radius: 129px;
     padding: 22px 32px;
     text-align: center;
-    display: inline-block;
+    display: block;
     cursor: pointer;
     font-size: 40px;
-    margin: 0 auto;
 }
 
 .button:hover {
@@ -170,11 +169,11 @@ nav {
 }
 
 .button-2 {
-    position:absolute;
+    position: relative;
     width: 500px;
     height: 103px;
-    top: 800px;
-    left: 700px;
+    top: 50px;
+    left: 0px;
     background-color: #c01712;
     color: white;
     text-decoration: none;
@@ -199,9 +198,52 @@ nav {
 
 #get-in-touch {
     margin-top: 400px;
-    margin-left: 200px;
+    text-align: center;
 }
 
+form {
+    padding-top: 40px;
+}
+
+label {
+    padding-right: 10px;
+}
+
+input[type=text] {
+    width: 30%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+    outline: none;
+}
+
+input[type=email] {
+    width: 30%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+    outline: none;
+}
+
+textarea {
+    width: 25%;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    box-sizing: border-box;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    resize: vertical;
+    outline: none;
+}
 
 .form-button {
     width: 100px;
@@ -210,9 +252,12 @@ nav {
     border: none;
     border-radius: 19px;
     padding: 10px 12px;
+    margin-top: 30px;
+    margin-bottom: 40px;
     text-align: center;
     display: inline-block;
     cursor: pointer;
+    outline: none;
 }
 
 .form-button:hover {
@@ -223,6 +268,33 @@ nav {
     background-color: #971010;
     transform: translateY(4px);
 }
+
+.social {
+    margin-top: 100px;
+    background-image: linear-gradient(#c01712, #971010);
+}
+
+.icons {
+    text-align: center;
+}
+
+.svg-inline--fa {
+    width: 32px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    padding-left: 5px;
+    background-color: none;
+    color: white;
+}
+
+a {
+    text-decoration: none;
+}
+
+.fa-soundcloud {
+    width: 42px;
+}
+
 /*Breakpoint to do some spacing on the navbar list*/
 
 @media screen and (max-width:1138px) {
@@ -264,6 +336,51 @@ nav {
     .burger-menu {
         display: block;
         margin-top: 5px;
+    }
+
+    #line-1 {
+        top: 790px;
+        left: 30%;
+        color: black;
+        text-align: center;
+    }
+    
+    #line-2 {
+        top: 840px;
+        left: 40%;
+        color: black;
+        text-align: center;
+    }
+
+    .button {
+        width: 200px;
+        height: 60px;
+        top: 950px;
+        left: 38%;
+        background-color: #c01712;
+        color: white;
+        text-decoration: none;
+        border: none;
+        border-radius: 129px;
+        padding: 13px 32px;
+        text-align: center;
+        display: block;
+        cursor: pointer;
+        font-size: 25px;
+    }
+
+    #merch {
+        margin-top: 35%;
+    }
+
+    #get-in-touch {
+        margin-top: 30%;
+    }
+
+    .button-2 {
+        width: 350px;
+        height: 80px;
+        font-size: 27px;
     }
 }
 
