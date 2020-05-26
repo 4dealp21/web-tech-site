@@ -36,6 +36,7 @@ Since some people have disabilities, there are some rules that had to be followe
 
 ## 5. GDPR
 
+GDPR was not used.
 
 ## 6. Distance Selling
 
