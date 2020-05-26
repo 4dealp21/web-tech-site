@@ -17,7 +17,7 @@ Repo: [https://github.com/4dealp21/web-tech-site](https://github.com/4dealp21/we
 ## 1. Background
 
 The aim of this project was to create a responsive website which attempts to solve a problem.
-The website that created was a music artist portfolio/presentation named "VOXINUS".
+The website was designed for a music artist and it is a portfolio/presentation website named "VOXINUS".
 A website is always important to musicians since it's always good to keep a presence online to promote the brand and in some cases to show some of the work produced.
 
 ## 2. Wire Frames
